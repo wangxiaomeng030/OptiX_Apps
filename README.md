@@ -40,14 +40,12 @@ CUDACXX=/usr/local/cuda-12.0/bin/nvcc  cmake -DCMAKE_BUILD_TYPE=Release  -DCMAKE
 make  -j8
 make install
 
-在build/bin路径下会生成物体渲染的可执行程序
+在build/bin路径下会生成物体渲染的可执行程序render_my
 
-#### 运行：   
-cd bin
-
-./render_my  --compare
-
-
+#### 运行 
+cd OptiX_Apps/apps/render_my/build
+保存数据模式      ./bin/render_my  --compare 
+可视化模式        ./bin/render_my
 
 
 
