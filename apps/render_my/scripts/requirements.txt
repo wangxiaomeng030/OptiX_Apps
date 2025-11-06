@@ -1,0 +1,5 @@
+objaverse>=0.1.7
+requests>=2.31.0
+tqdm>=4.66.0
+urllib3>=2.0.7
+pandas>=2.0.0
